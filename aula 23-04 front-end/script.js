@@ -4,7 +4,7 @@ fetch('https://fakestoreapi.com/products')
       .then(response => response.json())
       .then(data => {
         const tableBody = document.getElementById('productTableBody');
-
+/* w3schools */
         for (let i = 0; i < 10; i++) {
           const product = data[i];
 
